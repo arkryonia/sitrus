@@ -8,6 +8,9 @@ module.exports = {
         'xs': '320px',
         ...defaultTheme.screens
       },
+      fontFamily: {
+        'sans': ['Poppins', ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         'i-teal': '#3ca3a0',
         'i-cinnabar': '#e6412a',

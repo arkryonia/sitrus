@@ -1,0 +1,23 @@
+.navbar {
+    @apply w-full fixed p-4 bg-i-teal text-white;
+}
+
+.navbar__ctn {
+    @apply flex flex-wrap items-center justify-between;
+    @apply static 
+}
+
+.navbar__links {
+    @apply flex flex-col justify-center items-center;
+    @apply fixed right-0 bottom-0 left-0 h-full  bg-i-teal transform
+}
+
+.navbar__link {
+    @apply block p-6 text-lg
+}
+
+.navbar__burger {
+    @apply relative 
+}
+
+
