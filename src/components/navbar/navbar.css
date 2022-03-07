@@ -2,6 +2,10 @@
     @apply w-full fixed p-4 bg-i-teal text-white;
 }
 
+.navbar__logo img {
+    @apply h-10
+}
+
 .navbar__ctn {
     @apply flex flex-wrap items-center justify-between;
     @apply static 
@@ -17,7 +21,7 @@
 }
 
 .navbar__burger {
-    @apply relative 
+    @apply relative ease-in-out duration-500
 }
 
 

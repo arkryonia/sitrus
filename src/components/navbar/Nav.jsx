@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import "./navbar.css";
 
+import logo from '../../assets/img/logor.svg'
+
 const menuIcon = (
   <svg
     className="w-10 h-10 z-20"
@@ -42,7 +44,9 @@ export const Nav = () => {
   return (
     <nav className="navbar">
       <div className="navbar__ctn">
-        <div className="navbar__logo">Logo</div>
+        <div className="navbar__logo">
+            <img src={logo} alt="logo" />
+        </div>
         <ul
           className={`navbar__links ${
             showLinks ? "translate-x-0" : "translate-x-full"
