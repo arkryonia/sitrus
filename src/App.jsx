@@ -1,18 +1,4 @@
 import React, { Fragment } from "react";
-import {
-  Animator,
-  ScrollContainer,
-  ScrollPage,
-  batch,
-  Fade,
-  FadeIn,
-  Move,
-  MoveIn,
-  MoveOut,
-  Sticky,
-  StickyIn,
-  ZoomIn,
-} from "react-scroll-motion";
 
 import "./assets/css/styles.css";
 import { Cover } from "./components/inc/Cover";
