@@ -12,16 +12,20 @@
 }
 
 .navbar__links {
-    @apply flex flex-col justify-center items-center;
-    @apply fixed right-0 bottom-0 left-0 h-full  bg-i-teal transform
+    @apply flex flex-col gap-3 justify-center items-center w-full;
+    @apply fixed right-0 bottom-0 left-0 h-full  bg-i-teal transform;
+
+    @apply md:transform-none md:translate-x-0 md:top-0;
+    @apply md:w-fit md:h-14 md:flex-row left-auto md:bottom-auto;
 }
 
 .navbar__link {
-    @apply block p-6 text-lg
+    @apply block md:inline-flex text-lg
 }
 
 .navbar__burger {
-    @apply relative ease-in-out duration-500
+    @apply relative ease-in-out duration-500;
+    @apply md:hidden
 }
 
 
