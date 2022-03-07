@@ -53,7 +53,7 @@ export const Header = () => {
             `}
         >
           <li>
-            <a href="/">Accueil</a>
+            <a href="#home">Accueil</a>
           </li>
           <li>
             <a href="#formations">Formations</a>
