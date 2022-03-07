@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 
-import logo from "../../assets/img/logow.svg";
+import logo from "../../assets/img/logor.svg";
 
 export const Header = () => {
     const [menuIconClicked, setMenuIconClicked] = useState(true)
@@ -34,14 +34,14 @@ export const Header = () => {
             fixed 
             left-0 
             right-0 
-            min-h-screen 
-            bg-i-teal 
-            text-white
+            min-h-screen           
             px-4
             transition
             duration-500
             transform 
             translate-x-full
+            bg-i-teal
+            text-white
             md:relative 
             md:flex 
             md:min-h-0 
