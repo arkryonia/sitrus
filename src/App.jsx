@@ -1,33 +1,12 @@
 import React, { Fragment } from "react";
-import {
-  Animator,
-  ScrollContainer,
-  ScrollPage,
-  batch,
-  Fade,
-  FadeIn,
-  Move,
-  MoveIn,
-  MoveOut,
-  Sticky,
-  StickyIn,
-  ZoomIn,
-} from "react-scroll-motion";
 
 import "./assets/css/styles.css";
-import { Cover } from "./components/inc/Cover";
-import { Formations } from "./components/inc/Formations";
-import { Header } from "./components/inc/Header";
+
 
 export const App = () => {
   return (
     <Fragment>
-      <Header />
-      <Cover />
-      <Formations />
-      <section id="certifications" className="min-h-screen bg-gray-100"></section>
-      <section id="ent" className="min-h-screen"></section>
-      <section id="contact" className="min-h-screen bg-gray-100"></section>
+     <h1 className="bg-red-900 md:bg-blue-900">Hey</h1>
     </Fragment>
   );
 };
