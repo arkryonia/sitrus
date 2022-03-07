@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
@@ -10,6 +12,10 @@ module.exports = {
         'i-black': '#08090a',
         'i-violet': '#3b429f',
       },
+      screens: {
+        'xs': '320px',
+        ...defaultTheme.screens
+      }
     },
   },
   plugins: [],
