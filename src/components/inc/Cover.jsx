@@ -7,9 +7,15 @@ export const Cover = () => {
   return (
     <section
       id="home"
-      className="pt-60 pb-16 px-8 md:px-12 min-h-screen bg-i-teal"
-    >
-      <div className="max-w-7xl mx-auto md:flex md:items-center md:justify-between">
+      className="pt-20 pb-16 px-8 md:px-12 min-h-screen bg-i-teal"
+    ></section>
+  );
+};
+
+{
+  /*
+   className="pt-20 pb-16 px-8 md:px-12 min-h-screen bg-i-teal"
+  <div className="max-w-7xl mx-auto md:flex md:items-center md:justify-between">
         <div className="md:flex-1 md:mr-6">
           <h1 className="font-extrabold text-4xl md:text-5xl text-white leading-tight">
             Institut International de Finance de Management et d'Expertise
@@ -31,16 +37,16 @@ export const Cover = () => {
         <div className="md:flex-1">
           <img src={cover} alt="Student on classroom" />
         </div>
-      </div>
-    </section>
-  );
-};
+      </div> */
+}
 
-{/* <p className="sm:hidden">
+{
+  /* <p className="sm:hidden">
   <a
     href="#formations"
     className="py-3 px-5 bg-i-violet text-white rounded shadow-md hover:shadow-none"
   >
     En savoir plus sur nos formations...
   </a>
-</p> */}
+</p> */
+}
