@@ -1,16 +1,19 @@
 import React, { Fragment } from "react";
 
-import "./assets/css/styles.css";
-import { Nav } from "./components/inc/navigation/Nav";
-
+import "./assets/scss/styles.scss";
+import logo from './assets/img/logo.svg'
 
 export const App = () => {
   return (
     <Fragment>
-      <Nav />
-      <section id="certifications" className="min-h-screen bg-i-teal"></section>
-      <section id="ent" className="min-h-screen"></section>
-      <section id="contact" className="min-h-screen bg-gray-100"></section>
+      <header className="ctn">
+        <nav className="nav">
+          <img src={logo} alt="Logo" className="nav__logo"/>
+          <ul className="nav__links">
+            <li className="nav__item"><a href="/" className="nav__link">Formations</a></li>
+          </ul>
+        </nav>
+      </header>
     </Fragment>
   );
 };
