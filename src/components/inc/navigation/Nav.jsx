@@ -18,8 +18,9 @@ export const Nav = () => {
         <div>
           <img src={logo} alt="logo iifmec" className="nav__logo" />
         </div>
+       
 
-        <ul className={`nav__links ${ showLinks ? 'translate-x-full' : 'translate-x-0'}`}>
+        <ul className={`nav__links`}>
           {menus.map((menu) => (
             <li key={menu.link} className="nav__item">
               <a href={`#${menu.link}`} className="nav__link">
@@ -27,11 +28,7 @@ export const Nav = () => {
               </a>
             </li>
           ))}
-        </ul>
-
-        <button className={`nav__burger`} onClick={handleShowLinks}>
-            {showLinks ? burger : cross}
-        </button>
+        </ul>        
       </nav>
     </header>
   );

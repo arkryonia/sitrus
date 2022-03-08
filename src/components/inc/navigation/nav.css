@@ -5,26 +5,27 @@
 .nav__bar {
   @apply text-white;
   @apply relative;
-  @apply flex flex-col justify-between;
+  @apply flex justify-between;
+  @apply md:container md:mx-auto
 }
 
 .nav__logo {
-  @apply h-14 p-3;
 }
 
 .nav__links {
-    @apply text-center bg-i-teal;
-    @apply absolute top-0 w-full min-h-screen mt-14 transform
+   
+}
+
+.md__nav__links {
 }
 
 .nav__item {
-    @apply uppercase font-bold; 
-    @apply py-8
+    
 }
 
 .nav__link {
 }
 
 .nav__burger {
-  @apply absolute m-2 top-0 right-0;
+
 }
